@@ -1,0 +1,115 @@
+.right
+{  float: right;
+
+}
+.head1
+{ position: relative;
+   top: 200px;
+
+}
+.head
+{ color: tomato;
+   
+
+}
+button
+{
+   background-color: rgb(11, 168, 230);
+   color: white;
+   padding: 15px;
+   border-radius: 10px;
+   font-size: 25px;
+   position: relative;
+   top: 205px;
+
+}
+.text b{
+   background-color: yellow;
+}
+.text1>p{
+   background-color: brown;
+   color: wheat;
+}
+.text2>p + b{
+   background-color: black;
+   color: aqua;
+}
+.text3 ~ p
+{
+   background-color: crimson;
+   color: black;
+}
+.pramod::first-letter
+{
+   font-size: 80px;
+   color: red;
+}
+.pp::first-line
+{
+   color: green;
+   font-size: 26px;
+}
+
+p:empty{
+   background-color: rgb(179, 163, 163);
+   width: 700px;
+   height: 20px;
+}
+div:empty
+{
+   width: 700px;
+   height: 20px;
+  background-color: rebeccapurple;
+}
+input:focus{
+   background-color: rgb(165, 32, 32);
+}
+input:hover{
+   background-color: blue;
+}
+.class::before
+{  
+   content: '' ;
+   display: inline-block;
+   width: 40px;
+   height: 40px;
+   background-color: red;
+}
+.class::after
+{  content: '' ;
+   display: inline-block;
+   width: 40px;
+   height: 40px;
+   background-color: red;
+
+}
+.a
+{
+   width: 100px;
+   height: 100px;
+   background-color: rgb(47, 46, 46);
+   transform: rotate(110deg);
+   margin: 50px;
+   
+}
+.b
+{
+   width: 100px;
+   height: 80px;
+   background-color:rgb(47, 46, 46);
+   transform: skewX(30deg);
+   margin: 10px;
+  
+   margin: 50px;
+
+}
+.c
+{
+   width: 100px;
+   height: 80px;
+   background-color: rgb(47, 46, 46);
+   transform: skewY(-10deg);
+   margin: 50px;
+}
+
+ 
